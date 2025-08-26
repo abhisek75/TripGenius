@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ───── Dependencies ─────
+node_modules/
+.pnp/
+.pnp.js
+.yarn/install-state.gz
+
+# ───── Testing ─────
+coverage/
+
+# ───── Next.js ─────
+.next/
+out/
+
+# ───── Production Build ─────
+build/
+
+# ───── Misc ─────
+.DS_Store
+*.pem
+
+# ───── Debug logs ─────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ───── Local environment files ─────
+.env
+.env.local
+.env*.local
+.env.development
+.env.test
+.env.production
+
+# Prevent leaking OpenAI, Clerk, Convex secrets
+*.env.*
+
+# ───── Vercel / Netlify ─────
+.vercel/
+.netlify/
+
+# ───── TypeScript ─────
+*.tsbuildinfo
+next-env.d.ts
+
+# ───── Convex generated ─────
+convex/_generated/
+
+# ───── Other misc ─────
+lib/event.json
