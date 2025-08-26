@@ -44,8 +44,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# ───── Convex generated ─────
-convex/_generated/
+
 
 # ───── Other misc ─────
 lib/event.json
